@@ -185,14 +185,14 @@ class Main:
             print(" ")
             print(" ")
             #print("\033c", end="")  # Clear the screen (works on Unix-like systems)
-        # For Windows, you might need to use:
-        # print("\033[H\033[J", end="")
-        # However, it may not work in all environments
+            # For Windows, you might need to use:
+            # print("\033[H\033[J", end="")
+            # However, it may not work in all environments
 
 #animate_car()
 
 
-# restart function in development------------------------
+# restart,start,stop functions in development------------------------
     def start(self):
         if not self.running:
             self.running = True
